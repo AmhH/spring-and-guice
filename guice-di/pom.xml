@@ -4,8 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>guice-di</artifactId>
+    <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>guice-di</name>
+    <url>http://maven.apache.org</url>
     <description>Demo project for Spring Boot to compare with guice</description>
 
     <dependencies>
@@ -14,10 +16,20 @@
             <artifactId>guice</artifactId>
             <version>${guice.version}</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <properties>
         <guice.version>4.1.0</guice.version>
+        <java.version>11</java.version>
     </properties>
+    <build>
+        <finalName>GuiceDI</finalName>
+    </build>
 
 </project>
