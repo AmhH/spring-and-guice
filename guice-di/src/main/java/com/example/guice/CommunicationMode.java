@@ -1,4 +1,7 @@
 package com.example.guice;
 
-public class CommunicationMode {
+public interface CommunicationMode {
+    public CommunicationModel getMode();
+
+    public boolean sendMessage(String message);
 }
