@@ -23,7 +23,7 @@
         <mockito.version>1.10.19</mockito.version>
         <assertj.version>3.12.2</assertj.version>
         <aspectjweaver.version>1.9.5</aspectjweaver.version>
-        <spring.version>5.2.2.RELEASE</spring.version>
+        <spring.version>5.2.20.RELEASE</spring.version>
         <spring-security.version>5.2.1.RELEASE</spring-security.version>
         <maven-war-plugin.version>2.6</maven-war-plugin.version>
         <lombok.version>1.18.4</lombok.version>
